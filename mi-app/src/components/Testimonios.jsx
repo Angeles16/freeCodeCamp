@@ -4,13 +4,15 @@ import '../Styles/Testimonio.css'
 function Testimonios({imagen, nombre, from, cargo, empresa, texto}) {
 
 	console.log({imagen, nombre, from, cargo, empresa, texto})
+	
 
 	return (
 		<div className="contenido-testimonio">
+			
 			<div className="contenedor-imagen">
 			<img
 				className="imagen-testimonio"
-				src={require(`../imag es/${imagen}.png`)}
+				src="../images/Emma.png"
 				alt="Foto Emma.png" />
 			</div>
 			<div className="contenedor-texto-testimonio">

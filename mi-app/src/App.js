@@ -1,7 +1,8 @@
 import './App.css';
 import Testimonio from './components/Testimonios';
-import { useState } from 'react';
+import CardTest from './components/CardTest';
 import Datos from './Json/testimonio.json';
+import {useState} from 'react';
 
 function App() {
 
@@ -22,8 +23,12 @@ function App() {
 							empresa={empresa}
 							texto={texto}
 						/>
+
+						
+
 					))}
 			</div>
+			<CardTest />
 		</div>
 	);
 }
